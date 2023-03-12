@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Navbar, Footer } from '../components';
+import { Footer, Hero, Navbar } from '../components';
 
 export default function Home() {
   return (
@@ -13,6 +13,9 @@ export default function Home() {
           { link: '/contact', label: 'Contact' },
         ]}
       />
+      <main>
+        <Hero />
+      </main>
       <Footer
         links={[
           { link: '/', label: 'Home' },
