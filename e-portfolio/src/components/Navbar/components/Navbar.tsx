@@ -13,7 +13,7 @@ import { useStyles, HEADER_HEIGHT } from '../utils/useStyles';
 
 import type { NavbarProps } from '../types/NavbarProps';
 
-export const Navbar = ({ links }: NavbarProps) => {
+export const Navbar = ({ links }: NavbarProps): JSX.Element => {
   const [opened, { toggle, close }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
