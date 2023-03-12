@@ -1,10 +1,11 @@
 import React from 'react';
 
 import { Navbar } from '../components/Navbar/components/Navbar';
+import { Footer } from '../components/Footer/components/Footer';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar
         links={[
           { link: '/', label: 'Home' },
@@ -13,7 +14,14 @@ export default function Home() {
           { link: '/contact', label: 'Contact' },
         ]}
       />
-      <h1>Home</h1>
-    </div>
+      <Footer
+        links={[
+          { link: '/', label: 'Home' },
+          { link: '/about', label: 'About' },
+          { link: '/projects', label: 'Projects' },
+          { link: '/contact', label: 'Contact' },
+        ]}
+      />
+    </>
   );
 }
