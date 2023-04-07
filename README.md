@@ -1,6 +1,6 @@
 # E-portfolio built with Astro
 
-This project showcases my previous work through a personal E-portfolio built with Astro, a modern static site builder that leverages React and Markdown for flexible and performant web development.
+This project showcases my previous work through a personal E-portfolio built with Astro, a modern static site builder that leverages Markdown and the power of the web platform for flexible and performant web development.
 
 ## Features
 
