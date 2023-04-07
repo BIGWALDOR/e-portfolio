@@ -16,7 +16,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 
-import portrait from '/assets/portrait.png';
+import portrait from '/e-portfolio/portrait.png';
 
 // Content Fetching: List four most recent work projects
 const projects = (await getCollection('work'))
@@ -148,7 +148,8 @@ const projects = (await getCollection('work'))
     aspect-ratio: calc(2.25 / var(--bg-scale));
     top: 0;
     transform: translateY(-75%) translateX(-50%);
-    background: url('/assets/backgrounds/noise.png') top center/220px repeat,
+    background: url('/e-portfolio/assets/backgrounds/noise.png') top
+        center/220px repeat,
       var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
       var(--gray-999);
     background-blend-mode: overlay, normal, normal, normal;

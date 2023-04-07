@@ -1,7 +1,7 @@
 ---
 title: Project Management
 publishDate: 02-10-2022 12:00:00
-img: /assets/project-management.png
+img: /e-portfolio/assets/project-management.png
 img_alt: Landing page for Project Management App
 description: |
   A fullstack web application built with React, ApolloClient, GraphQL, Express, and MongoDB.
