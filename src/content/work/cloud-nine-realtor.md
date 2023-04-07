@@ -22,3 +22,5 @@ To make my development process even smoother, I utilized Chakra UI, a modular co
 Overall, the development process was smooth, thanks to the combination of React, NextJS, and Chakra UI. The modular component architecture allowed me to quickly build the application's UI and improve the development process's efficiency. Hosting the application was also straightforward with the deployment on Vercel.
 
 In conclusion, building a real estate web application using React, NextJS, and Chakra UI was a valuable learning experience. These technologies allowed me to create an efficient and highly performant application that meets the needs of a dynamic industry like real estate.
+
+[Visit the website](https://real-estate-webapp-three.vercel.app/) | [View the code](https://github.com/BIGWALDOR/real-estate-webapp)
