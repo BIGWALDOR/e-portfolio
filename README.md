@@ -6,7 +6,7 @@ This project showcases my previous work through a personal E-portfolio built wit
 
 - Responsive and accessible design optimized for desktop and mobile devices
 - Dynamic content rendered from Markdown files
-- Modular components using React and built-in Astro components
+- Modular components using built-in Astro components
 - Server-side rendering and static site generation for fast loading and SEO optimization
 - Easy deployment and hosting with popular services like Vercel and Netlify
 
