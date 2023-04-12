@@ -1,7 +1,7 @@
 ---
 title: Jeannes Desserts
 publishDate: 04-07-2023 12:00:00
-img: /e-portfolio/assets/jeannes-desserts.png
+img: /assets/jeannes-desserts.png
 img_alt: Landing page for Jeannes Desserts
 description: |
   I built a fullstack e-commerce website for a home baker. The website is built with Next.js and uses a headless CMS in Sanity.io, Snipcart for the checkout and Stripe for payments. The website is fully responsive and is hosted on Vercel.

@@ -1,7 +1,7 @@
 ---
 title: Cloud9 Realtor
 publishDate: 01-28-2022 12:00:00
-img: /e-portfolio/assets/cloud-nine.png
+img: /assets/cloud-nine.png
 img_alt: Landing page for Cloud9 Realtor
 description: |
   A real estate web application built with React, NextJS, and Chakra UI.
