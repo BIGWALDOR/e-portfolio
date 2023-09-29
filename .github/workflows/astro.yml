@@ -58,9 +58,12 @@ jobs:
           node-version: '16'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
-        # Add env to install @bigwaldor/test-gh-package from private repo
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Authenticate with Github Package Registry
+        run: |
+          echo "registry=https://npm.pkg.github.com" >> $GITHUB_ENV
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
