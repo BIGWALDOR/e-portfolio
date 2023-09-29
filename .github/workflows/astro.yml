@@ -58,6 +58,8 @@ jobs:
           node-version: '16'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
           cache-dependency-path: ${{ env.BUILD_PATH }}/package-lock.json
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT}}
 
       - name: Setup Pages
         id: pages
@@ -65,6 +67,8 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: ${{ env.BUILD_PATH }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT}}
       - name: Build with Astro
         run: |
           ${{ steps.detect-package-manager.outputs.runner }} astro build \
